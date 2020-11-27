@@ -1,0 +1,12 @@
+[
+	{
+		"queryName": "Ingress Target Has Service Not Defined",
+		"severity": "LOW",
+		"line": 13
+	},
+	{
+		"queryName": "Ingress Target Has Service Not Defined",
+		"severity": "LOW",
+		"line": 20
+	}
+]
