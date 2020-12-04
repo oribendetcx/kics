@@ -1,0 +1,7 @@
+[
+	{
+		"queryName": "StatefulSet Has Not PodDisruptionBudget Assigned",
+		"severity": "LOW",
+		"line": 16
+	}
+]

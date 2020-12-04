@@ -1,0 +1,8 @@
+{
+  "id": "StatefulSet_has_PodDisruptionBudget",
+  "queryName": "StatefulSet Has Not PodDisruptionBudget Assigned",
+  "severity": "LOW",
+  "category": null,
+  "descriptionText": "StatefulSet has not PodDisruptionBudget assigned or the value is incorrect",
+  "descriptionUrl": "https://kubernetes.io/docs/tasks/run-application/configure-pdb/"
+}
