@@ -26,7 +26,7 @@ jobs:
         checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }} #To be stored in GitHub Secrets.
         break_build: false
         scanners: sast
-        github_token: ${{ secrets.GH_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         params: --namespace=${{ env.ORG_NAME }} --repo-name=${{ env.REPO_NAME }}  --branch=${{ github.ref }} 
     - name: Upload SARIF file
       uses: github/codeql-action/upload-sarif@v1
